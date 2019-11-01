@@ -30,8 +30,23 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-end
+  counter = 0
+  index = nil
 
+  while has[counter] do
+
+   if hash[counter] == key
+    index = counter
+   end
+
+   counter += 1
+  
+  end
+
+  print hash[index]
+
+
+end
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
