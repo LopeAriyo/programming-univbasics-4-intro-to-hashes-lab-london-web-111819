@@ -39,7 +39,7 @@ def update_counting_hash(hash, key)
   # if the provided key is present, increment its value by 1
 
   if hash[key] == nil
-    
+
   else
     hash[key] = hash[key] + 1
   end
