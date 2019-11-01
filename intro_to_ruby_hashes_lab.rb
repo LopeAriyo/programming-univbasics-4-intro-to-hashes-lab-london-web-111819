@@ -30,21 +30,7 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  counter = 0
-  index = nil
-
-  while has[counter] do
-
-   if hash[counter] == key
-    index = counter
-   end
-
-   counter += 1
-
-  end
-
-  print hash[index]
-
+  hash[:key]
 
 end
 def update_counting_hash(hash, key)
