@@ -40,7 +40,7 @@ def read_from_hash(hash, key)
    end
 
    counter += 1
-  
+
   end
 
   print hash[index]
