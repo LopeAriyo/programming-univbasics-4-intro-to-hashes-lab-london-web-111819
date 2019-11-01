@@ -1,9 +1,11 @@
 def new_hash
-  new_hash = { }
+  empty_hash = { }
 end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
+  yoga_level = { "Beginner" => "Down dog", "Advanced" => "Crow Pose" }
+  
 end
 
 def pioneer
